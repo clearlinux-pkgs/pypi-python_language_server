@@ -1,0 +1,19 @@
+--- python-language-server-0.36.2/setup.py~	2020-12-11 19:24:55.000000000 +0000
++++ python-language-server-0.36.2/setup.py	2021-03-25 15:49:54.996949007 +0000
+@@ -10,7 +10,7 @@
+         'configparser; python_version<"3.0"',
+         'future>=0.14.0; python_version<"3"',
+         'backports.functools_lru_cache; python_version<"3.2"',
+-        'jedi>=0.17.2,<0.18.0',
++        'jedi>=0.17.2',
+         'python-jsonrpc-server>=0.4.0',
+         'pluggy',
+         'ujson<=2.0.3 ; platform_system!="Windows" and python_version<"3.0"',
+--- python-language-server-0.36.2/python_language_server.egg-info/requires.txt~	2020-12-11 19:25:03.000000000 +0000
++++ python-language-server-0.36.2/python_language_server.egg-info/requires.txt	2021-03-25 15:50:15.660948719 +0000
+@@ -1,4 +1,4 @@
+-jedi<0.18.0,>=0.17.2
++jedi>=0.17.2
+ python-jsonrpc-server>=0.4.0
+ pluggy
+ 
