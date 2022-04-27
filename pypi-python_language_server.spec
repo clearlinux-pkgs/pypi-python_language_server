@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_language_server
 Version  : 0.36.2
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/66/30/0c31b052ede62bbeddf4110db57c78d3c704506178caa18b2f0be2271293/python-language-server-0.36.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/30/0c31b052ede62bbeddf4110db57c78d3c704506178caa18b2f0be2271293/python-language-server-0.36.2.tar.gz
 Summary  : Python Language Server for the Language Server Protocol
@@ -15,12 +15,6 @@ Requires: pypi-python_language_server-license = %{version}-%{release}
 Requires: pypi-python_language_server-python = %{version}-%{release}
 Requires: pypi-python_language_server-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: python-language-server
-Provides: python-language-server-python
-Provides: python-language-server-python3
-BuildRequires : pypi(backports.functools_lru_cache)
-BuildRequires : pypi(configparser)
-BuildRequires : pypi(future)
 BuildRequires : pypi(jedi)
 BuildRequires : pypi(pluggy)
 BuildRequires : pypi(python_jsonrpc_server)
@@ -61,9 +55,6 @@ Summary: python3 components for the pypi-python_language_server package.
 Group: Default
 Requires: python3-core
 Provides: pypi(python_language_server)
-Requires: pypi(backports.functools_lru_cache)
-Requires: pypi(configparser)
-Requires: pypi(future)
 Requires: pypi(jedi)
 Requires: pypi(pluggy)
 Requires: pypi(python_jsonrpc_server)
@@ -83,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641483670
+export SOURCE_DATE_EPOCH=1651101790
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
