@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_language_server
 Version  : 0.36.2
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/66/30/0c31b052ede62bbeddf4110db57c78d3c704506178caa18b2f0be2271293/python-language-server-0.36.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/30/0c31b052ede62bbeddf4110db57c78d3c704506178caa18b2f0be2271293/python-language-server-0.36.2.tar.gz
 Summary  : Python Language Server for the Language Server Protocol
